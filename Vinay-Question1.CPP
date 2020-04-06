@@ -1,4 +1,4 @@
-#include<iostream>//iostream
+#include<iostream>
 #include<string.h>// string
 using namespace std;
 int getLIndex(char[],char);//prototype has been added
@@ -18,7 +18,7 @@ int main()
 		cout<<"NOT FOUND"<<endl;
 	return 0;	
 }
-int getFIndex(char string[],char c)//square brackets
+int getFIndex(char string[],char c)//square brackets and L has been replaced
 {
 	int size = strlen(string);//strlen has been added
 	int i=0;
@@ -33,7 +33,8 @@ int getFIndex(char string[],char c)//square brackets
 	}
 	
 }
-int getLIndex(char string[], char c)//square brakcet and data type
+int getLIndex(char string[], char c)//square brakcet and data type and F has been replaced
+{
 {
 	int size = strlen(string);
 	int i=size; 
@@ -46,5 +47,5 @@ int getLIndex(char string[], char c)//square brakcet and data type
 		}
 	i--;
 }
-		
+	// Findex and Lindex has been	changed
 }
