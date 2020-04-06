@@ -20,7 +20,7 @@ int main ()
         while (n != 0)
           {
         	r = n % 10;
-        	a = a * sqrt(r)*d;//== has been replaced by = and sqrt has been added
+        	a = a * sqrt(r)*d;//== has been replaced by = and sqrt has been added sqrt(r,d )has been changed
         	n = n / 10;
            }
         cout << ++a+r+d << "\n";
