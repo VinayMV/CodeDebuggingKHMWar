@@ -7,8 +7,8 @@ for i in range(int(input())): #int() has been added
                 if word[j] in vowels:#sqaure brackets removed 
                         if j == 0: 
                                 count = count+1 #++ not supported
-                        elif word[j+1] in vowels: #sqaure brackets removed 
-                                count = count #break has been removed
+                        elif word[j+1] not in vowels: #sqaure brackets removed and not has been added
+                                break 
                         else:
                                 count = count+1 #++ not supported
         print (count)
