@@ -9,8 +9,8 @@ for _ in range(t):
 	queue=[0]
 	for i in range(n-1):
 		u,v=map(int ,input().strip().split())#indendation matched
-		adj[u-1].append(adj[v-1])#indendation problem fixed and adj has been adde
-		adj[v-1].append(adj[u-1])#indendation problem fixed and adj has been added
+		adj[u-1].append(v-1)#indendation problem fixed and adj has been adde
+		adj[v-1].append(u-1)#indendation problem fixed and adj has been added
 	v=list(map(str,input().strip().split()))
 	m=list(map(str,input().strip().split()))#parenthesis missing
 	for i in queue:
